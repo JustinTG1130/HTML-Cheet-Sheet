@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: snow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#row-1 {
+    display: flex;
+}
+
+
+table {
+    border: 10px solid slategray;
+    width: 550px;
+    height: 600px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#row-1 th{
+    padding: 2px 10px;
+    background-color: powderblue;
+}
+
+.table-body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+td {
+    
+    border-bottom: 2px solid silver;
+    padding: 2px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    width: 360px;
+    margin: 0 auto;
+    color: snow;
+    background-color: rgb(135, 206, 235);
+}
+
+h2 {
+    color: skyblue;
+    text-align: center;
+}
+
+#paragraph {
+    width: 550px;
+    height: 600px;
+    background-color: aliceblue;
+    border: 10px solid slategray;
+    border-radius: 10px;
+}
+#paragraph p {
+    margin: 20px;
+}
